@@ -1,4 +1,3 @@
-require_relative 'lib/parser.rb'
 require_relative 'lib/generator.rb'
 
 corporate_bs = generate_corporate_bs

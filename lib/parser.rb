@@ -9,6 +9,8 @@ class Parser
     @sentence_hash = init_sentence_hash
   end
 
+  private
+  
   def init_sentence_hash
     # this method should fetch the page
     p @document
