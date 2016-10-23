@@ -12,7 +12,7 @@ class Generator
     @nouns = csv[3]
   end
 
-  def generate_corporate_bs
+  def new_sentence
      sentence = @adverbs.sample + @verbs.sample + @adjectives.sample + @nouns.sample
      puts sentence
   end
