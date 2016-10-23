@@ -1,6 +1,6 @@
 require_relative 'lib/generator.rb'
 
-generator = Generator.new
+generator = Generator.new('db/words.csv')
 
 corporate_bs = generator.new_sentence
 

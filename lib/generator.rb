@@ -2,8 +2,8 @@ require 'CSV'
 
 class Generator
 
-  def initialize
-    @csv = CSV.read('db/words.csv')
+  def initialize(csv_path)
+    @csv = CSV.read(csv_path)
     remove_nil
     @adverbs = @csv[0]
     @verbs = @csv[1]
