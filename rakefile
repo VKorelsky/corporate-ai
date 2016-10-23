@@ -1,0 +1,8 @@
+require 'rake'
+
+task default %w[test]
+
+task :test do
+  ruby 'test/generator_tests.rb'
+  ruby 'test/parser_tests.rb'
+end

@@ -1,16 +1,5 @@
 require_relative 'lib/parser.rb'
-
-def generate_corporate_bs
-   sentence
-
-end
-
-
-
-
-
-
-
+require_relative 'lib/generator.rb'
 
 corporate_bs = generate_corporate_bs
 cmd = `say #{corporate_bs}`
