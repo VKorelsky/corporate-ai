@@ -1,7 +1,7 @@
 require 'CSV'
 
 class Generator
-  
+
   def initialize
     @csv = CSV.read('db/words.csv')
     remove_nil
@@ -13,7 +13,6 @@ class Generator
 
   def new_sentence
      sentence = "#{@adverbs.sample } #{@verbs.sample} #{@adjectives.sample} #{@nouns.sample}"
-     puts sentence
   end
 
   private
