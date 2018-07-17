@@ -1,12 +1,12 @@
 Gem::Specification.new do |gem|
     gem.name = 'saybs'
-    gem.summary = "generates a random string of corporate bs and makes your computer say it"
+    gem.summary = gem.description =  "generates a random string of corporate bs and makes your computer say it"
 
-    gem.version = SayBs::VERSIOn
+    gem.version = SayBs::VERSION
     gem.files = Dir['lib/**/*']
-    gem.executables = ["executable"]
+    gem.executables = ["saybs"]
 
-    gem.author = ['author']
+    gem.author = ['Victor Korelsky']
     gem.licenses = ['MIT']
 
     gem.add_development_dependency "bundler", "~> 1.16"
