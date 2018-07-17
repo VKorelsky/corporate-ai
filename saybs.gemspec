@@ -1,3 +1,5 @@
+require File.expand_path("../lib/saybs/version", __FILE__)
+
 Gem::Specification.new do |gem|
     gem.name = 'saybs'
     gem.summary = gem.description =  "generates a random string of corporate bs and makes your computer say it"
