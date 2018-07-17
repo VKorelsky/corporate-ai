@@ -2,8 +2,8 @@ require 'CSV'
 
 module SayBs
   class Generator
-    def initialize
-      @csv = CSV.read()
+    def initialize(csv_path)
+      @csv = CSV.read(csv_path)
       remove_nil
       @adverbs = @csv[0]
       @verbs = @csv[1]

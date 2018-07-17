@@ -5,7 +5,8 @@ module SayBs
   class App
     def self.run
       # entrypoint
-      corpo_bs = SayBs::Generator.new.new_sentence
+      csv_path = File.expand_path('db/words.csv', __FILE__)
+      corpo_bs = SayBs::Generator(csv_path).new.new_sentence
 
       puts corpo_bs
       %x(say #{corpo_bs})
