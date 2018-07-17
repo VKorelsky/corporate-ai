@@ -11,4 +11,5 @@ module SayBs
       puts corpo_bs
       %x(say #{corpo_bs})
     end
+  end
 end
