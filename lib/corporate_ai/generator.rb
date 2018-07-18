@@ -1,6 +1,6 @@
 require 'CSV'
 
-module SayBs
+module CorporateAi
   class Generator
     def initialize(csv_path)
       @csv = CSV.read(csv_path)

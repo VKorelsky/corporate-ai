@@ -1,7 +1,7 @@
 require 'CSV'
-require_relative 'saybs/generator'
+require_relative 'corporate_ai/generator'
 
-module SayBs
+module CorporateAi
   class App
     def self.run
       # entrypoint

@@ -1,10 +1,10 @@
-require File.expand_path("../lib/saybs/version", __FILE__)
+require File.expand_path("../lib/corporate_ai/version", __FILE__)
 
 Gem::Specification.new do |gem|
-    gem.name = 'saybs'
+    gem.name = 'corporate_ai'
     gem.summary = gem.description =  "generates a random string of corporate bs and makes your computer say it"
 
-    gem.version = SayBs::VERSION
+    gem.version = CorporateAi::VERSION
     gem.files = Dir['lib/**/*']
     gem.executables = ["saybs"]
 

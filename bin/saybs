@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'saybs'
+require 'corporate_ai'
 
-SayBs::App.run
+CorporateAi::App.run
