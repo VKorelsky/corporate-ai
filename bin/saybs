@@ -2,4 +2,8 @@
 
 require 'corporate_ai'
 
-CorporateAi::App.run
+begin
+  CorporateAi::App.run
+rescue Interrupt
+  puts "\nGoodbye."
+end
