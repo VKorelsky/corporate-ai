@@ -11,6 +11,8 @@ Gem::Specification.new do |gem|
     gem.author = ['Victor Korelsky']
     gem.licenses = ['MIT']
 
+    gem.post_install_message = "type saybs in the terminal for your daily dose of corporatism"
+
     gem.add_development_dependency "bundler", "~> 1.16"
     gem.add_development_dependency "rake", "~> 10.0"
 end
